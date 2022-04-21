@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Source+Code+Pro:wght@500&display=swap');
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 50vh;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+.name {
+    padding-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    border-top: solid 2px black;
+}
+
+li {
+    list-style: none;
+}
+
+#a-links {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3px;
+}
+
+#a-links:hover {
+    border-bottom: solid black 1px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.links {
+    padding: 20px 20px 20px 20px;
+    margin-top: 5px;
+    border-radius: 100px;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-li {
+    border: 1px;
+    border: groove;
+    padding-left: 20px;
+}
+
+.h1-content {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    text-shadow: -4px 2px 2px pink;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.first-ul {
+    font-size: 22px;
+    margin: 0 20px 20px 0px;
+}
+
+.day-labor {
+    color: black;
+    text-align: center;
+    padding: 0 0 0px 0;
+    font-size: 18px;
+}
+
+.h1-day-labor {
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -4px 2px 2px pink;
+}
+
+.scheduling {
+    text-align: center;
+}
+
+.h1-scheduling {
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -4px 2px 2px pink;
+}
+
+img {
+    width: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Source+Code+Pro:wght@500&display=swap');
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 50vh;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    border-top: solid 2px black;
+}
+
+li {
+    list-style: none;
+}
+
+#a-links {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3px;
+}
+
+#a-links:hover {
+    border-bottom: solid black 1px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 0;
+}
+
+.links {
+    padding: 20px 20px 20px 20px;
+    margin-top: 5px;
+    border-radius: 100px;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-resume {
+    padding: 5px;
+}
+
+.h1-resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -4px 2px 2px pink;
+}
+
+.p-resume {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 300px 0px 300px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+.name {
+    padding-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+}

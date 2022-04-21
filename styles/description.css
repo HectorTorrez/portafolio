@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Source+Code+Pro:wght@500&display=swap');
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 50vh;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    border-top: solid 2px black;
+}
+
+li {
+    list-style: none;
+}
+
+#a-links {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3px;
+}
+
+#a-links:hover {
+    border-bottom: solid black 1px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 0;
+}
+
+.links {
+    padding: 20px 20px 20px 20px;
+    margin-top: 5px;
+    border-radius: 100px;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#me {
+    min-width: 10vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+.about {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    flex-direction: column;
+}
+
+.h1-about {
+    font-size: 40px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -4px 2px 2px pink;
+}
+
+.p-about {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 70px 30px 70px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+
+.desc {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.description {}
+
+.h1-desc {
+    font-size: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -4px 2px 2px pink;
+}
+
+.p-desc {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 70px 30px 70px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+
+.name {
+    padding-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
